@@ -15,6 +15,6 @@ valor = float(input("Qual o valor normal da prestação?"))
 taxa = float(input("Qual a taxa de juros?"))
 tempo = float(input("Quantos dias de atraso?"))
 
-prestação = valor + (valor * (taxa / 100) * tempo)
+prestacao = valor + (valor * (taxa / 100) * tempo)
 
-print("o valor da prestação em atraso é R$", prestação)
+print("o valor da prestação em atraso é R$", prestacao)
